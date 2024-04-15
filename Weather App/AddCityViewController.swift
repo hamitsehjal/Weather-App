@@ -57,8 +57,8 @@ class AddCityViewController: UIViewController,UITableViewDataSource,UISearchResu
     func updateSearchResults(for searchController: UISearchController) {
         if let cityName=searchController.searchBar.text{
             let searchParams=["q":cityName]
-            // make request to the
-            GeoBytesAPI.fetchCityList(parameters: searchParams, completion: {
+            // make request to the GeoBytesAPI to fetch list of cities
+            ServiceAPI.fetchCityList(parameters: searchParams, completion: {
                 (citiesResult) in
                 
                 switch citiesResult{

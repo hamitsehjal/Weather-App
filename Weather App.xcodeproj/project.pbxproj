@@ -16,8 +16,7 @@
 		3A28B15C2BCC8CCB00FC9F7C /* Weather_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A28B15B2BCC8CCB00FC9F7C /* Weather_AppTests.swift */; };
 		3A28B1662BCC8CCB00FC9F7C /* Weather_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A28B1652BCC8CCB00FC9F7C /* Weather_AppUITests.swift */; };
 		3A28B1682BCC8CCB00FC9F7C /* Weather_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A28B1672BCC8CCB00FC9F7C /* Weather_AppUITestsLaunchTests.swift */; };
-		3A28B1772BCCE01300FC9F7C /* ResultsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A28B1762BCCE01300FC9F7C /* ResultsTableController.swift */; };
-		3A28B1802BCD093500FC9F7C /* GeoBytesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A28B17F2BCD093500FC9F7C /* GeoBytesAPI.swift */; };
+		3A28B1802BCD093500FC9F7C /* ServiceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A28B17F2BCD093500FC9F7C /* ServiceAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +50,7 @@
 		3A28B1612BCC8CCB00FC9F7C /* Weather AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weather AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A28B1652BCC8CCB00FC9F7C /* Weather_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_AppUITests.swift; sourceTree = "<group>"; };
 		3A28B1672BCC8CCB00FC9F7C /* Weather_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		3A28B1762BCCE01300FC9F7C /* ResultsTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableController.swift; sourceTree = "<group>"; };
-		3A28B17F2BCD093500FC9F7C /* GeoBytesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoBytesAPI.swift; sourceTree = "<group>"; };
+		3A28B17F2BCD093500FC9F7C /* ServiceAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +107,6 @@
 				3A28B1462BCC8CCA00FC9F7C /* SceneDelegate.swift */,
 				3A28B1482BCC8CCA00FC9F7C /* AddCityViewController.swift */,
 				3A28B14A2BCC8CCA00FC9F7C /* Main.storyboard */,
-				3A28B1762BCCE01300FC9F7C /* ResultsTableController.swift */,
 				3A28B14D2BCC8CCB00FC9F7C /* Assets.xcassets */,
 				3A28B14F2BCC8CCB00FC9F7C /* LaunchScreen.storyboard */,
 				3A28B1522BCC8CCB00FC9F7C /* Info.plist */,
@@ -137,7 +134,7 @@
 		3A28B17C2BCD070500FC9F7C /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				3A28B17F2BCD093500FC9F7C /* GeoBytesAPI.swift */,
+				3A28B17F2BCD093500FC9F7C /* ServiceAPI.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -280,9 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A28B1772BCCE01300FC9F7C /* ResultsTableController.swift in Sources */,
 				3A28B1492BCC8CCA00FC9F7C /* AddCityViewController.swift in Sources */,
-				3A28B1802BCD093500FC9F7C /* GeoBytesAPI.swift in Sources */,
+				3A28B1802BCD093500FC9F7C /* ServiceAPI.swift in Sources */,
 				3A28B1452BCC8CCA00FC9F7C /* AppDelegate.swift in Sources */,
 				3A28B1472BCC8CCA00FC9F7C /* SceneDelegate.swift in Sources */,
 			);
