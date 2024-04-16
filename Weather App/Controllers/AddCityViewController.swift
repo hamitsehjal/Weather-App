@@ -7,13 +7,6 @@
 
 import UIKit
 
-//struct City{
-//    let name:String
-//    let latitude:Double
-//    let longitude:Double
-//}
-
-
 class AddCityViewController: UIViewController,UITableViewDataSource,UISearchResultsUpdating{
     
     
